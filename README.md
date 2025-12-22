@@ -17,19 +17,20 @@ On Kali Linux, I updated the OS and installed key security tools such as nmap, W
 From Kali, I ran nmap -A with Ubuntu's IP to see which ports were open and what services were running. For example, FTP was open on port 20.
 
 This step simulates reconnaissance, which is the phase attackers use to gather information before attempting a breach. It helped me understand how attackers think and plan.
-<img width="2238" height="938" alt="image" src="https://github.com/user-attachments/assets/a5fcfdc0-c32b-4814-aac2-26805f7d82df" />
+
+<img width="600"  height="200" alt="image" src="https://github.com/user-attachments/assets/a5fcfdc0-c32b-4814-aac2-26805f7d82df" />
 ---
 
 ## 🛡 Defending Ubuntu with UFW Firewall
 To protect Ubuntu, I installed the UFW firewall. I allowed SSH connections so I could manage the system remotely and only allowed traffic from Kali's IP. All other connections were blocked.
 
 This setup lets me safely test attacks while keeping the target secure from unwanted traffic.
-<img width="1257" height="873" alt="image" src="https://github.com/user-attachments/assets/ecbabc96-fe8c-4be0-b312-bff36d363de2" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/ecbabc96-fe8c-4be0-b312-bff36d363de2" />
 ---
 
 ## 📊 Analyzing Traffic with Wireshark
 On Ubuntu, I used Wireshark to capture and analyze network traffic while Kali performed attacks. I watched the TCP handshake packets like SYN, SYN-ACK, and RST, which helped me understand how connections work and how attacks progress on the network.
-<img width="2075" height="882" alt="image" src="https://github.com/user-attachments/assets/2c0fb4d4-d4d8-4224-889d-0d466b695636" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/2c0fb4d4-d4d8-4224-889d-0d466b695636" />
 ---
 
 ## 🎯 Skills Developed
