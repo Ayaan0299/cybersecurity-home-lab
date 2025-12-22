@@ -2,7 +2,8 @@
 
 I built a cybersecurity home lab to practice both attacking and defending systems.  
 The lab uses Kali Linux as the attacker and Ubuntu as the target. Both machines run in VirtualBox on a NAT network so everything is safe and isolated from my main computer.
-<img width="1230" height="377" alt="image" src="https://github.com/user-attachments/assets/c4fe6943-e5db-4693-884b-c09de8fb7f1c" />
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/c4fe6943-e5db-4693-884b-c09de8fb7f1c" />
 ---
 
 ## 🖥 Setting Up the Environment
